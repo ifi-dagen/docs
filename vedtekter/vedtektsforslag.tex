@@ -18,7 +18,7 @@
 
 % Redefines first level of enumerate in the format a), b), ...
 \renewcommand{\theenumi}{\alph{enumi}}
-\renewcommand{\labelenumi}{\theenumi)}
+\renewcommand{\labelenumi}{\theenumi)} % chktex 9 chktex 10
 
 \author{}%
 \title{\textbf{Vedtekter for Ifi-dagen} \\
@@ -56,12 +56,16 @@
 
 \subsection{Valg av styre}
 \begin{enumerate}
-	\item{Styret velges av generalforsamlingen, og skal bestå av studenter ved Ifi.}
-	\item{Funksjonstiden for et styremedlem varer enten frem til neste ordinære generalforsamling, eller fram til utgangen av året som styret ble innvalgt for, hva enn som er lengst.}
-	\item{Styret skal bestå av følgende verv: leder, nestleder, økonomiansvarlig og bedriftsansvarlig, samt eventuelle andre verv valgt av styret før generalforsamlingen.}
-	\item Faste og nødvendige verv i styret er leder, økonomiansvarlig og bedriftsansvarlig, og kan kun velges på ekstraordinær generalforsamling.\label{sec:protected}
-	\item Dersom enkelte verv ikke blir fylt på generalforsamling, eller et styremedlem frafaller, kan styret selv etterfylle nye styremedlemmer som blir sittende til neste ordinære generalforsamling, med unntak av vervene i \cref{sec:protected}.
+	\item Styret velges av generalforsamlingen, og skal kun bestå av studenter ved Institutt for informatikk.
+	\item Funksjonstiden for et styremedlem varer enten frem til neste ordinære generalforsamling, eller fram til utgangen av året som styret ble innvalgt for, hva enn som er lengst.
+	\item Styret skal minimum bestå av leder, økonomiansvarlig og bedriftsansvarlig, og disse vervene kan \textit{kun} velges på en generalforsamling\label{sec:protected}.
+	\item Styret kan velge andre verv til valg før generalforsamlingen\label{sec:free}.
+	\item Dersom verv fra \cref{sec:free} ikke er fylt etter generalforsamling, eller et styremedlem fratrer, kan styret selv etterfylle nye styremedlemmer som blir sittende til neste ordinære generalforsamling.
+	\item Valg av styremedlemmer på generalforsamling skjer ved \textit{Instant-runoff vote}\footnotemark.
+		\footnotetext{Også kjent som \textit{IRV}, eller \textit{alternativ stemmegivning}.}
 \end{enumerate}
+
+
 
 \subsection{Styret og dets oppgaver}
 \begin{enumerate}
@@ -85,13 +89,18 @@
 	\item{De øvrige vervene kan signere på vegne av styret i saker som omhandler deres verv, i samråd med styret.}
 \end{enumerate}
 
+\newpage
 \section{Økonomi\label{sec:okonomi}}
 \subsection{Fordeling av overskudd}
-Ved innføring av nytt styre skal et eventuelt overskudd overføres til \textit{Fordelingsutvalget ved Institutt for informatikk}, foruten en egenkapital på kr 200~000,--. Fordelte midler skal gå til formål som kommer studentforeningene ved Institutt for informatikk til gode.
+\begin{enumerate}
+	\item Ved innføring av nytt styre skal et eventuelt overskudd overføres til \textit{Fordelingsutvalget ved Institutt for informatikk}, foruten en egenkapital for foreningen på kr 200~000,--. 
+	\item Fordelte midler fra et eventuelt overskudd skal gå til formål som kommer studentene og deres studentforeninger ved Institutt for informatikk til gode.
+\end{enumerate}
+
 \subsection{Informasjonsplikt}
 \begin{enumerate}
-	\item{Ifi-dagen plikter å holde Fordelingsutvalget ved Ifi oppdatert med relevant regnskapsinformasjon ved forespørsel og regnskapsavslutning.}
-	\item{Ved forslag om endring av~\ref{sec:okonomi} skal Fordelingsutvalget ved Ifi informeres skriftlig før generalforsamling.}
+	\item Ifi-dagen plikter å holde \textit{Fordelingsutvalget ved Institutt for informatikk} oppdatert med relevant regnskapsinformasjon ved forespørsel og regnskapsavslutning.
+	\item Ved forslag om endring av~\ref{sec:okonomi} skal \textit{Fordelingsutvalget ved Institutt for informatikk} informeres skriftlig før generalforsamling.
 \end{enumerate}
 
 \section{Mistillit}
@@ -101,8 +110,9 @@ Mistillitsforslag overfor foreningens styremedlemmer skal behandles på generalf
 \subsection{Oppløsning av Ifi-dagen}
 For å gjennomføre foreslått oppløsning av Ifi-dagen som organisasjon, må det være 9/10 flertall
 blant de fremmøtte stemmeberettigede på 2 generalforsamlinger.
+
 \subsection{Fordeling av midler ved oppløsning}
 Ved oppløsning skal Ifi-dagen sine økonomiske midler og eiendommer overføres til
-Fordelingsutvalget ved Ifi.\label{ref:lastpage}%
+Fordelingsutvalget ved Ifi.\label{ref:lastpage}
 
-\end{document}
+\end{document} % chktex 17
