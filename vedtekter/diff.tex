@@ -1,0 +1,206 @@
+\documentclass[norsk,a4paper]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL vedtekter.tex         Wed Feb 28 11:48:10 2018
+%DIF ADD vedtektsforslag.tex   Wed Feb 28 11:47:05 2018
+\usepackage[norsk]{babel}
+\usepackage[utf8]{inputenc}
+%DIF 4c4
+%DIF < \usepackage{parskip,textcomp,fullpage,fancyhdr,graphicx}
+%DIF -------
+\usepackage{cleveref,parskip,textcomp,fullpage,fancyhdr,graphicx} %DIF > 
+%DIF -------
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\lfoot{\thepage~/~\pageref{ref:lastpage}}
+\rfoot{\includegraphics[width=3cm,trim=0 4cm 0 0]{../res/logo.png}}
+
+% Redefines sections and subsections in the format §1-1
+\renewcommand{\thesection}{§\arabic{section}}
+\renewcommand{\thesubsection}{\thesection-\arabic{subsection}}
+
+% Redefines first level of enumerate in the format a), b), ...
+\renewcommand{\theenumi}{\alph{enumi}}
+%DIF 21c21
+%DIF < \renewcommand{\labelenumi}{\theenumi)}
+%DIF -------
+\renewcommand{\labelenumi}{\theenumi)} % chktex 9 chktex 10 %DIF > 
+%DIF -------
+
+%DIF 23a23
+\author{}% %DIF > 
+%DIF -------
+\title{\textbf{Vedtekter for Ifi-dagen} \\
+{\large Oppdatert \DIFdelbegin \DIFdel{etter generalforsamlingen 15.}\DIFdelend \DIFaddbegin \DIFadd{for generalforsamlingen 28.}\DIFaddend \ februar \DIFdelbegin \DIFdel{2017}\DIFdelend \DIFaddbegin \DIFadd{2018}\DIFaddend }}
+%DIF < \date{}
+%DIF -------
+\date{}% %DIF > 
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+
+\maketitle{}
+\thispagestyle{fancy}
+
+\section{Formål}
+\subsection{Foreningens formål}
+\begin{enumerate}
+	\item{Ifi-dagen er en studentforening ved Institutt for informatikk (Ifi) ved Universitetet i Oslo (UiO).}
+	\item{Ifi-dagen skal jobbe for å skape kontakt mellom studenter ved Ifi og næringslivet, dette gjøres hovedsakelig gjennom hver høst å arrangere karrieredagen dagen@ifi.}
+\end{enumerate}
+\subsection{dagen@ifi}
+\begin{enumerate}
+	\item{dagen@ifi skal være et arrangement for studentene ved Ifi. Arrangementet skal strebe etter å engasjere studentene ved instituttet, profilere studentene og informatikkmiljøet ved UiO overfor næringslivet og bidra til det sosiale miljøet på Ifi. Arrangementet skal også gjennom et bredt faglig program vise informatikkstudentene interessante sider av informatikkfaget.}
+	\item{Styret skal innen 15.\ april annonsere dato for årets dagen@ifi.}
+\end{enumerate}
+
+\section{Foreningens ledelse og forvaltning}
+\subsection{Generalforsamlingen og dens myndighet}
+\begin{enumerate}
+	\DIFdelbegin %DIFDELCMD < \item{Ifi-dagen sin høyeste myndighet er dets generalforsamling. Ordinær generalforsamling avholdes årlig, før utgangen av februar. Ekstraordinær generalforsamling avholdes når styret, eller minst 30 registrerte studenter ved Ifi ønsker det.}
+%DIFDELCMD <     %%%
+\DIFdelend \DIFaddbegin \item{Ifi-dagen sin høyeste myndighet er dens generalforsamling. Ordinær generalforsamling avholdes årlig, før utgangen av året. Ekstraordinær generalforsamling avholdes når styret, eller minst 30 registrerte studenter ved Institutt for informatikk, ønsker det.}
+	\DIFaddend \item{Alle studenter ved Ifi er stemmeberettigede på generalforsamling.}
+	\item{Styret innkaller til ordinær generalforsamling med minst to ukers varsel. For ekstraordinær generalforsamling minst en ukes varsel.}
+	\item{Foreløpig dagsorden offentliggjøres minst en uke i forkant av ordinær generalforsamling. For ekstraordinær generalforsamling minst tre dager i forkant.}
+	\item{For at et vedtak på generalforsamlingen skal være gyldig, må det være minst 20 stemmeberettigede tilstede.}
+	\item{Ved endringer av foreningens vedtekter kreves det 2/3 flertall blant de tilstedeværende stemmeberettigede.}
+	\item{Forslag til vedtektsendringer skal være styret i hende senest 48 timer før generalforsamling.}
+\end{enumerate}
+\DIFaddbegin 
+
+\DIFaddend \subsection{Valg av styre}
+\begin{enumerate}
+	\item Styret velges av generalforsamlingen, og skal bestå av studenter ved \DIFdelbegin \DIFdel{Ifi}\DIFdelend \DIFaddbegin \DIFadd{Institutt for informatikk}\DIFaddend .
+	\item Funksjonstiden for et styremedlem varer \DIFaddbegin \DIFadd{enten }\DIFaddend frem til neste ordinære generalforsamling\DIFaddbegin \DIFadd{, eller til utgangen av året som styret ble innvalgt for, hva enn som er lengst}\DIFaddend .
+	\item Styret skal bestå av \DIFdelbegin \DIFdel{følgende verv: leder, nestleder, }\DIFdelend \DIFaddbegin \DIFadd{seks til tolv personer, hvorav vervene leder, }\DIFaddend økonomiansvarlig \DIFdelbegin \DIFdel{, teknisk ansvarlig, to promoteringsansvarlige, underholdningsansvarlig, bedriftsansvarlig , faglig ansvarlig og funksjonæransvarlig.
+    }%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Dersom enkelte verv ikke blir fylt på generalforsamlingkan styret selv etterfylle nye styremedlemmer, med unntak av leder og økonomiansvarlig som må }\DIFdelend \DIFaddbegin \DIFadd{og bedriftsansvarlig er faste, og kan }\textit{\DIFadd{kun}} \DIFaddend velges på \DIFdelbegin \DIFdel{ekstraordinær generalforsamling.
+    }\DIFdelend \DIFaddbegin \DIFadd{en generalforsamling}\label{sec:protected}\DIFadd{.
+	}\DIFaddend \item \DIFdelbegin \DIFdel{Ved frafall av et styremedlem (utenom leder og økonomiansvarlig)}\DIFdelend \DIFaddbegin \DIFadd{Styret definerer øvrige verv til valg før generalforsamlingen}\label{sec:free}\DIFadd{.
+	}\item \DIFadd{Dersom verv fra \mbox{%DIFAUXCMD
+\cref{sec:free} }\hspace{0pt}%DIFAUXCMD
+ikke er fylt etter generalforsamling}\DIFaddend , \DIFaddbegin \DIFadd{eller et styremedlem fratrer, }\DIFaddend kan styret selv etterfylle nye styremedlemmer som blir sittende til neste ordinære generalforsamling.
+	\DIFdelbegin \DIFdel{Leder og økonomiansvarlig må velges }\DIFdelend \DIFaddbegin \item \DIFadd{Valg av styremedlemmer }\DIFaddend på \DIFdelbegin \DIFdel{ekstraordinær generalforsamling . 
+}\DIFdelend \DIFaddbegin \DIFadd{generalforsamling skjer ved }\textit{\DIFadd{Instant-runoff vote}}\footnotemark\DIFadd{.
+		}\footnotetext{\DIFadd{Også kjent som }\textit{\DIFadd{IRV}}\DIFadd{, eller }\textit{\DIFadd{alternativ stemmegivning}}\DIFadd{.}}
+\DIFaddend \end{enumerate}
+\DIFaddbegin 
+
+
+
+\DIFaddend \subsection{Styret og dets oppgaver}
+\begin{enumerate}
+	\item{Styret er ansvarlig for Ifi-dagen sin virksomhet og for at foreningens vedtekter følges.}
+	\item{Styret er beslutningsdyktig dersom minst 2/3 av styremedlemmene er tilstede.}
+	\item{Styret avgjør saker med enkelt flertall ved stemmegivning. Ved stemmelikhet har styreleder to stemmer.}
+\end{enumerate}
+\DIFaddbegin 
+
+\DIFaddend \subsection{Arbeidsgrupper}
+\begin{enumerate}
+	\item{Styret kan fritt oppnevne arbeidsgrupper til å delta aktivt i styrets arbeid utover vanlige funksjonærers arbeid.}
+	\item{Alle arbeidsgrupper ledes av et styremedlem, som er ansvarlig for oppfølging av gruppens medlemmer og aktivitet.}
+	\item{Ved utskifting av styret skal alle grupper oppløses og må eventuelt gjengodkjennes av det nye styret for den nye perioden.}
+	\item{Styret kan legge ned eller endre grupper ved behov.}
+\end{enumerate}
+
+\section{Signaturrett}
+\subsection{Signering på vegne av Ifi-dagen}
+\begin{enumerate}
+	\item{Styreleder og ett styremedlem kan, i samsvar med hverandre, signere på vegne av Ifi-dagen.}
+	\item{De øvrige vervene kan signere på vegne av styret i saker som omhandler deres verv, i samråd med styret.}
+\end{enumerate}
+
+\DIFaddbegin \newpage
+\DIFaddend \section{Økonomi\label{sec:okonomi}}
+\subsection{Fordeling av overskudd}
+\DIFaddbegin \begin{enumerate}
+	\item \DIFaddend Ved innføring av nytt styre skal et eventuelt overskudd overføres til \DIFdelbegin \DIFdel{Fordelingsutvalget}\DIFdelend \DIFaddbegin \textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}}\DIFaddend , foruten en egenkapital \DIFaddbegin \DIFadd{for foreningen }\DIFaddend på kr \DIFdelbegin \DIFdel{100}\DIFdelend \DIFaddbegin \DIFadd{200}\DIFaddend ~000,--. 
+	\DIFdelbegin \DIFdel{Fordelte midler }\DIFdelend \DIFaddbegin \item \DIFadd{Fordelte midler fra et eventuelt overskudd }\DIFaddend skal gå til formål som kommer studentene \DIFdelbegin \DIFdel{ved Ifi }\DIFdelend \DIFaddbegin \DIFadd{og deres studentforeninger ved Institutt for informatikk }\DIFaddend til gode.
+\DIFaddbegin \end{enumerate}
+
+\DIFaddend \subsection{Informasjonsplikt}
+\begin{enumerate}
+	\item Ifi-dagen plikter å holde \DIFdelbegin \DIFdel{Fordelingsutvalget ved Ifi }\DIFdelend \DIFaddbegin \textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}} \DIFaddend oppdatert med relevant regnskapsinformasjon ved forespørsel og regnskapsavslutning.
+	\item Ved forslag om endring av~\ref{sec:okonomi} skal \DIFdelbegin \DIFdel{Fordelingsutvalget ved Ifi }\DIFdelend \DIFaddbegin \textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}} \DIFaddend informeres skriftlig før generalforsamling.
+\end{enumerate}
+
+\section{Mistillit}
+Mistillitsforslag overfor foreningens styremedlemmer skal behandles på generalforsamling, og krever 2/3 flertall for å bli vedtatt. Mistillitsforslag må fremmes senest 48 timer før generalforsamling.
+
+\section{Oppløsning}
+\subsection{Oppløsning av Ifi-dagen}
+For å gjennomføre foreslått oppløsning av Ifi-dagen som organisasjon, må det være 9/10 flertall
+blant de fremmøtte stemmeberettigede på 2 generalforsamlinger.
+\DIFaddbegin 
+
+\DIFaddend \subsection{Fordeling av midler ved oppløsning}
+Ved oppløsning skal Ifi-dagen sine økonomiske midler og eiendommer overføres til
+\DIFdelbegin \DIFdel{Fordelingsutvalget ved Ifi}\DIFdelend \DIFaddbegin \textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}}\DIFaddend .\label{ref:lastpage}
+
+\end{document} % chktex 17
