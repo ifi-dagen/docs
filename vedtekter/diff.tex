@@ -1,7 +1,7 @@
 \documentclass[norsk,a4paper]{article}
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL vedtekter.tex         Sun Feb  4 17:19:53 2018
-%DIF ADD vedtektsforslag.tex   Mon Feb  5 14:09:23 2018
+%DIF DEL vedtekter.tex         Wed Feb 28 11:48:10 2018
+%DIF ADD vedtektsforslag.tex   Wed Feb 28 11:47:05 2018
 \usepackage[norsk]{babel}
 \usepackage[utf8]{inputenc}
 %DIF 4c4
@@ -122,7 +122,7 @@
 \begin{enumerate}
 	\DIFdelbegin %DIFDELCMD < \item{Ifi-dagen sin høyeste myndighet er dets generalforsamling. Ordinær generalforsamling avholdes årlig, før utgangen av februar. Ekstraordinær generalforsamling avholdes når styret, eller minst 30 registrerte studenter ved Ifi ønsker det.}
 %DIFDELCMD <     %%%
-\DIFdelend \DIFaddbegin \item{Ifi-dagen sin høyeste myndighet er dens generalforsamling. Ordinær generalforsamling avholdes årlig, før utgangen av året. Ekstraordinær generalforsamling avholdes når styret, eller minst 30 registrerte studenter ved Ifi, ønsker det.}
+\DIFdelend \DIFaddbegin \item{Ifi-dagen sin høyeste myndighet er dens generalforsamling. Ordinær generalforsamling avholdes årlig, før utgangen av året. Ekstraordinær generalforsamling avholdes når styret, eller minst 30 registrerte studenter ved Institutt for informatikk, ønsker det.}
 	\DIFaddend \item{Alle studenter ved Ifi er stemmeberettigede på generalforsamling.}
 	\item{Styret innkaller til ordinær generalforsamling med minst to ukers varsel. For ekstraordinær generalforsamling minst en ukes varsel.}
 	\item{Foreløpig dagsorden offentliggjøres minst en uke i forkant av ordinær generalforsamling. For ekstraordinær generalforsamling minst tre dager i forkant.}
@@ -134,20 +134,19 @@
 
 \DIFaddend \subsection{Valg av styre}
 \begin{enumerate}
-	\DIFdelbegin %DIFDELCMD < \item{Styret velges av generalforsamlingen, og skal bestå av studenter ved Ifi.}
-%DIFDELCMD <     \item{Funksjonstiden for et styremedlem varer frem til neste ordinære generalforsamling.}
-%DIFDELCMD <     \item{Styret skal bestå av følgende verv: leder, nestleder, økonomiansvarlig, teknisk ansvarlig, to promoteringsansvarlige, underholdningsansvarlig, bedriftsansvarlig, faglig ansvarlig og funksjonæransvarlig.}
-%DIFDELCMD <     \item{Dersom enkelte verv ikke blir fylt på generalforsamling kan styret selv etterfylle nye styremedlemmer, med unntak av leder og økonomiansvarlig som må velges på ekstraordinær generalforsamling.}
-%DIFDELCMD <     \item{Ved frafall av et styremedlem (utenom leder og økonomiansvarlig), kan styret selv etterfylle nye styremedlemmer som blir sittende til neste ordinære generalforsamling. Leder og økonomiansvarlig må velges på ekstraordinær generalforsamling.}
-%DIFDELCMD < %%%
-\DIFdelend \DIFaddbegin \item \DIFadd{Styret velges av generalforsamlingen, og skal bestå av studenter ved Institutt for informatikk.
-	}\item \DIFadd{Funksjonstiden for et styremedlem varer enten frem til neste ordinære generalforsamling, eller fram til utgangen av året som styret ble innvalgt for, hva enn som er lengst.
-	}\item \DIFadd{Styret skal minimum bestå av leder, økonomiansvarlig og bedriftsansvarlig, og disse vervene kan }\textit{\DIFadd{kun}} \DIFadd{velges på en generalforsamling}\label{sec:protected}\DIFadd{.
-	}\item \DIFadd{Styret kan velge andre verv til valg før generalforsamlingen}\label{sec:free}\DIFadd{.
+	\item Styret velges av generalforsamlingen, og skal bestå av studenter ved \DIFdelbegin \DIFdel{Ifi}\DIFdelend \DIFaddbegin \DIFadd{Institutt for informatikk}\DIFaddend .
+	\item Funksjonstiden for et styremedlem varer \DIFaddbegin \DIFadd{enten }\DIFaddend frem til neste ordinære generalforsamling\DIFaddbegin \DIFadd{, eller til utgangen av året som styret ble innvalgt for, hva enn som er lengst}\DIFaddend .
+	\item Styret skal bestå av \DIFdelbegin \DIFdel{følgende verv: leder, nestleder, }\DIFdelend \DIFaddbegin \DIFadd{seks til tolv personer, hvorav vervene leder, }\DIFaddend økonomiansvarlig \DIFdelbegin \DIFdel{, teknisk ansvarlig, to promoteringsansvarlige, underholdningsansvarlig, bedriftsansvarlig , faglig ansvarlig og funksjonæransvarlig.
+    }%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Dersom enkelte verv ikke blir fylt på generalforsamlingkan styret selv etterfylle nye styremedlemmer, med unntak av leder og økonomiansvarlig som må }\DIFdelend \DIFaddbegin \DIFadd{og bedriftsansvarlig er faste, og kan }\textit{\DIFadd{kun}} \DIFaddend velges på \DIFdelbegin \DIFdel{ekstraordinær generalforsamling.
+    }\DIFdelend \DIFaddbegin \DIFadd{en generalforsamling}\label{sec:protected}\DIFadd{.
+	}\DIFaddend \item \DIFdelbegin \DIFdel{Ved frafall av et styremedlem (utenom leder og økonomiansvarlig)}\DIFdelend \DIFaddbegin \DIFadd{Styret definerer øvrige verv til valg før generalforsamlingen}\label{sec:free}\DIFadd{.
 	}\item \DIFadd{Dersom verv fra \mbox{%DIFAUXCMD
 \cref{sec:free} }\hspace{0pt}%DIFAUXCMD
-ikke er fylt etter generalforsamling, eller et styremedlem fratrer, kan styret selv etterfylle nye styremedlemmer som blir sittende til neste ordinære generalforsamling.
-	}\item \DIFadd{Valg av styremedlemmer på generalforsamling skjer ved }\textit{\DIFadd{Instant-runoff vote}}\footnotemark\DIFadd{.
+ikke er fylt etter generalforsamling}\DIFaddend , \DIFaddbegin \DIFadd{eller et styremedlem fratrer, }\DIFaddend kan styret selv etterfylle nye styremedlemmer som blir sittende til neste ordinære generalforsamling.
+	\DIFdelbegin \DIFdel{Leder og økonomiansvarlig må velges }\DIFdelend \DIFaddbegin \item \DIFadd{Valg av styremedlemmer }\DIFaddend på \DIFdelbegin \DIFdel{ekstraordinær generalforsamling . 
+}\DIFdelend \DIFaddbegin \DIFadd{generalforsamling skjer ved }\textit{\DIFadd{Instant-runoff vote}}\footnotemark\DIFadd{.
 		}\footnotetext{\DIFadd{Også kjent som }\textit{\DIFadd{IRV}}\DIFadd{, eller }\textit{\DIFadd{alternativ stemmegivning}}\DIFadd{.}}
 \DIFaddend \end{enumerate}
 \DIFaddbegin 
@@ -187,12 +186,9 @@ ikke er fylt etter generalforsamling, eller et styremedlem fratrer, kan styret s
 
 \DIFaddend \subsection{Informasjonsplikt}
 \begin{enumerate}
-	\DIFdelbegin %DIFDELCMD < \item{Ifi-dagen plikter å holde Fordelingsutvalget ved Ifi oppdatert med relevant regnskapsinformasjon ved forespørsel og regnskapsavslutning.}
-%DIFDELCMD <             \item{Ved forslag om endring av~\ref{sec:okonomi} skal Fordelingsutvalget ved Ifi informeres skriftlig før generalforsamling.}
-%DIFDELCMD <         %%%
-\DIFdelend \DIFaddbegin \item \DIFadd{Ifi-dagen plikter å holde }\textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}} \DIFadd{oppdatert med relevant regnskapsinformasjon ved forespørsel og regnskapsavslutning.
-	}\item \DIFadd{Ved forslag om endring av~\ref{sec:okonomi} skal }\textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}} \DIFadd{informeres skriftlig før generalforsamling.
-}\DIFaddend \end{enumerate}
+	\item Ifi-dagen plikter å holde \DIFdelbegin \DIFdel{Fordelingsutvalget ved Ifi }\DIFdelend \DIFaddbegin \textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}} \DIFaddend oppdatert med relevant regnskapsinformasjon ved forespørsel og regnskapsavslutning.
+	\item Ved forslag om endring av~\ref{sec:okonomi} skal \DIFdelbegin \DIFdel{Fordelingsutvalget ved Ifi }\DIFdelend \DIFaddbegin \textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}} \DIFaddend informeres skriftlig før generalforsamling.
+\end{enumerate}
 
 \section{Mistillit}
 Mistillitsforslag overfor foreningens styremedlemmer skal behandles på generalforsamling, og krever 2/3 flertall for å bli vedtatt. Mistillitsforslag må fremmes senest 48 timer før generalforsamling.
@@ -205,6 +201,6 @@ blant de fremmøtte stemmeberettigede på 2 generalforsamlinger.
 
 \DIFaddend \subsection{Fordeling av midler ved oppløsning}
 Ved oppløsning skal Ifi-dagen sine økonomiske midler og eiendommer overføres til
-Fordelingsutvalget ved Ifi.\label{ref:lastpage}
+\DIFdelbegin \DIFdel{Fordelingsutvalget ved Ifi}\DIFdelend \DIFaddbegin \textit{\DIFadd{Fordelingsutvalget ved Institutt for informatikk}}\DIFaddend .\label{ref:lastpage}
 
 \end{document} % chktex 17
